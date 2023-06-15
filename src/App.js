@@ -15,7 +15,6 @@ class App extends React.Component{
    }
 
    render(){
-console.log('called')
     const changeFnameToLowerCase = () => {
       console.log('called')
        this.setState({fname: this.state.fname.toLowerCase()})
